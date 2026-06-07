@@ -20,11 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="controller\" />
-      <Folder Include="dto\" />
-      <Folder Include="exception\" />
       <Folder Include="model\" />
-      <Folder Include="service\" />
     </ItemGroup>
 
 </Project>

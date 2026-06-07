@@ -1,4 +1,4 @@
-@kolos_HostAddress = http://localhost:5161
+@kolos_HostAddress = http://localhost:5161/api/galleries
 
-GET {{kolos_HostAddress}}/weatherforecast/
+GET {{kolos_HostAddress}}/2/exhibitions
 Accept: application/json
