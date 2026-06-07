@@ -51,17 +51,6 @@ public class DbService : IDBService
         return gallery;
     }
 
-    public async Task createExhibition(PostDTO dto)
-    {
-        await using var transaction = _dbContext.Database.BeginTransactionAsync();
-        try
-        {
-            
-        }
-        catch
-        {
-            await transaction.RollbackAsync();
-            throw;
-        }
+    public async Task createExhibition(PostDTO dto) {
     }
 }

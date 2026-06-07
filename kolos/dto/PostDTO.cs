@@ -11,6 +11,12 @@ public class PostDTO
 
 public class ArtworkInfoPost
 {
+    public ArtworkInfoPost(int artworkId, double insuranceValue)
+    {
+        this.artworkId = artworkId;
+        this.insuranceValue = insuranceValue;
+    }
+
     public int artworkId {get; set;}
     public double insuranceValue { get; set; }
 }
