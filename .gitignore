@@ -1,0 +1,6 @@
+﻿/kolos.sln
+obj/
+*.idea/
+Properties/
+config/
+bin/
